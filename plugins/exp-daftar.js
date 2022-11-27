@@ -50,9 +50,9 @@ let handler = async function (m, { text, usedPrefix, command }) {
 
 const listMessage = {
   text: `│›Please select your age at the bottom button...`,
-  footer: `┗ *ʏᴏᴜʀ ɴᴀᴍᴇ:* ${conn.getName(m.sender)}\n<❔>  BOT PUBLIC\n⚘ Direcode Oleh KhrlMstfa ×፝֟͜×`,
+  footer: `┗ *ʏᴏᴜʀ ɴᴀᴍᴇ:* ${conn.getName(m.sender)}\n<❔>`,
   title: "▢━━━━「 Registration 」━━━━▢",
-  buttonText: "ഒ Registrasi ഒ",
+  buttonText: "ᴅᴀғᴛᴀʀ",
   sections
 }
 
