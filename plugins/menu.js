@@ -198,7 +198,7 @@ contextInfo: { externalAdReply :{ showAdAttribution: true,
                         mediaType: 2,
                         description: `ɢʀᴇᴇɴ ᴛᴇᴀ ʙᴏᴛ`,
                         title: `ɢ ʀ ᴇ ᴇ ɴ ᴛ ᴇ ᴀ ʙ ᴏ ᴛ`,
-                        body: `⚘ by khrl`,          previewType: 0,
+                        body: `Simple Bot whatsapp`,          previewType: 0,
                         thumbnail: await (await fetch(thumb)).buffer(),
                         mediaUrl: 'tiktok.com/@greenteabot'
                         
