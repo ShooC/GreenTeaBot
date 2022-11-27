@@ -39,7 +39,7 @@ let tags = {
   '': 'No Category',
 }
 const defaultMenu = {
-  before: `┏━━━ꕥ〔 *llı INFO USER ıll* 〕ꕥ━⬣ 
+  before: `┏━━━ꕥ〔 *llı You Info ıll* 〕ꕥ━⬣ 
 ┃✾ *Nama:* %name
 ┃✾ *Tag:* %name
 ┃✾ *Status:* %prems
@@ -49,13 +49,13 @@ const defaultMenu = {
 ┃✾ *Xp:* %exp / %maxexp
 ┃✾ *Total Xp:* %totalexp
 ┗━ꕥ
-┏━ꕥ〔 *llı TODAY ıll* 〕ꕥ━⬣
+┏━ꕥ〔 *llı Hari Ini ıll* 〕ꕥ━⬣
 ┃✾ *Hari:* %week %weton
 ┃✾ *Tanggal:* %date
 ┃✾ *Jam:* ${wib2} WIB
 ┃✾ *Tanggal Islam:* %dateIslamic
 ┗━ꕥ
-┏━ꕥ〔 *llı INFO ıll* 〕ꕥ━⬣
+┏━ꕥ〔 *llı Info ıll* 〕ꕥ━⬣
 ┃✾ *Nama Bot:* %me
 ┃✾ *Mode:* Public
 ┃✾ *Platform:* Linux
@@ -72,7 +72,7 @@ const defaultMenu = {
   header: '┏━━━ꕥ〔 *%category* 〕ꕥ━⬣\n┃',
     body: '┃ %cmd %islimit %isPremium\n┃',
   footer: '┗━━━━━━━━━ꕥ\n',
-  after: `  ${'✧\n┏━📮 *ɴᴏᴛᴇ* :\n┃ ᴊᴀɴɢᴀɴ sᴘᴀᴍ ʏᴀᴀ\n┗━━━━━━━━━━━━━━━━━━━ꕥ'}`,
+  after: `  ${'✧\n┏━🌾 *ɴᴏᴛᴇ* :\n┃ ᴊᴀɴɢᴀɴ sᴘᴀᴍ ʏᴀᴀ\n┗━━━━━━━━━━━━━━━━━━━ꕥ'}`,
 }
 let handler = async (m, { conn, usedPrefix, __dirname }) => {
   try {
