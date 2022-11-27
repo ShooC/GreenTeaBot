@@ -30,11 +30,11 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
      }
      let math = max - xp
 let caption = `*YOUR PROFILE*
-*🏷️ Nama:* *(${name})* ${registered ? '(' + name + ') ' : ''} ( @${who.split("@")[0]} )
-*❤️ Pasangan:*  ${pasangan ? `@${pasangan.split("@")[0]}` : `Tidak Punya`}
-*💲 Money:* *RP* ${money}
+*🍵 Nama:* *(${name})* ${registered ? '(' + name + ') ' : ''} ( @${who.split("@")[0]} )
+*💓 Pasangan:*  ${pasangan ? `@${pasangan.split("@")[0]}` : `Tidak Punya`}
+*💲 Money/Balance:* *RP* ${money}
 *🏆 Level* ${level}
-*🎋 Role:* ${role}
+*🔮 Role:* ${role}
 *🧬 XP:* TOTAL ${exp} (${exp - min} / ${xp}) [${math <= 0 ? `Siap untuk *${usedPrefix}levelup*` : `${math} XP lagi untuk levelup`}]
 *📨 Terdaftar:* ${registered ? 'Ya (' + new Date(regTime).toLocaleString() + ')' : 'Tidak'} ${lastclaim > 0 ? '\n*⏱️Terakhir Klaim:* ' + new Date(lastclaim).toLocaleString() : ''}\n\n Ketik ${usedPrefix}inv untuk melihat Inventory RPG`
 await conn.sendButton(m.chat, caption, wm, pp, [['Menu', `${usedPrefix}menu`],['Owner', `${usedPrefix}owner`]], m, { mentions: conn.parseMention(caption) })
@@ -42,7 +42,7 @@ await conn.sendButton(m.chat, caption, wm, pp, [['Menu', `${usedPrefix}menu`],['
 
 handler.help = ['profile'].map(v => v + ' <url>')
 handler.tags = ['rpg']
-
 handler.command = /^(myprofil ?|rpgprofil ?)$/i
+handler.group = true
 
 export default handler
