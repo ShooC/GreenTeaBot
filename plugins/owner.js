@@ -39,7 +39,7 @@ let handler = async(m, { conn, text, usedPrefix, command }) => {
     const detek = Math.floor( Kurang % (1000 * 60) / 1000)
 let cap = `ʜᴀɪ @${await m.sender.split('@')[0]}, ɪᴛᴜ ɴᴏᴍᴏʀ ᴘᴇᴍʙᴜᴀᴛ ʙᴏᴛ ɪɴɪ` 
   let buttonMessage= {
-'document':{'url':'tiktok.com/@greenteabot'},
+'document':{'url':'https://tiktok.com/@greenteabot'},
 'mimetype':global.ddocx,
 'fileName':'「 s ʜ ᴏ 」',
 'fileLength':fsizedoc,
@@ -48,13 +48,13 @@ let cap = `ʜᴀɪ @${await m.sender.split('@')[0]}, ɪᴛᴜ ɴᴏᴍᴏʀ ᴘ�
 'forwardingScore':555,
 'isForwarded':true,
 'externalAdReply':{
-'mediaUrl':'tiktok.com/@greenteabot',
+'mediaUrl':'https://tiktok.com/@greenteabot',
 'mediaType':2,
 'previewType':'pdf',
 'title':`ɢʀᴇᴇɴ ᴛᴇᴀ ʙᴏᴛ`,
 'body':`ʙʏ sʜᴏ`,
 'thumbnail': await(await fetch(thumb)).buffer(),
-'sourceUrl':'tiktok.com/@greenteabot'}},
+'sourceUrl':'https://tiktok.com/@greenteabot'}},
 'caption':cap,
 'footer':`ɪᴛᴜ ɴᴏᴍᴏʀ ᴏᴡɴᴇʀ ᴋᴜ
 
