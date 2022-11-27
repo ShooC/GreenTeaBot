@@ -9,9 +9,9 @@ let handler = async function (m, { text, usedPrefix, command }) {
 	let namae = conn.getName(m.sender)
 	const sections = [
 	{
-	title: "📆Pilih Umur Kamu Disini !",
+	title: "ᴘɪʟɪʜ ᴜᴍᴜʀ ᴅɪsɪɴɪ",
 	rows: [
-	    {title: "📛Random Tahun", rowId: '.daftar ' + namae + '.' + pickRandom(['30','29','28','27','26','25','24','23','22','21','20','19','18','17','16','15','14','13','12','11','10','9'])}
+	    {title: "ᴛᴀʜᴜɴ ʀᴍᴀɴᴅᴏᴍ", rowId: '.daftar ' + namae + '.' + pickRandom(['30','29','28','27','26','25','24','23','22','21','20','19','18','17','16','15','14','13','12','11','10','9'])}
 	]
     },
     {
@@ -72,19 +72,10 @@ const listMessage = {
   let sn = createHash('md5').update(m.sender).digest('hex')
   let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : m.fromMe ? conn.user.jid : m.sender
   let cap = `
-  ━━━━ 「 *Successful Registration* 」━━━
-  .
-╭━━「 *ᴜsᴇʀs* 」
-│▸ *sᴛᴀᴛᴜs:* ☑️ sᴜᴄᴄᴇssғᴜʟ
-│▸ *ɴᴀᴍᴇ:* ${name}
-│▸ *ᴀɢᴇ:* ${age} ʏᴇᴀʀs
-│▸ *sɴ:* ${sn}
-╰═┅═━––––––๑
-
-ꜱᴜʙꜱᴄʀɪʙᴇ ʏᴛ: RullZY
+  ━━━━ 「 *sᴜᴋsᴇs ᴛᴇʀᴅᴀғᴛᴀʀ* 」━━━
 `
   let buttonMessage= {
-'document':{'url':'https://youtube.com/channel/UC1oSMQCd3XKVxYwSh4RE2Nw'},
+'document':{'url':'tiktok.com/@greenteabot'},
 'mimetype':global.ddocx,
 'fileName':'▢━━━━「 Registrasi 」━━━━▢',
 'fileLength':fsizedoc,
@@ -93,23 +84,23 @@ const listMessage = {
 'forwardingScore':555,
 'isForwarded':true,
 'externalAdReply':{
-'mediaUrl':'https://youtube.com/channel/UC1oSMQCd3XKVxYwSh4RE2Nw',
+'mediaUrl':'tiktok.com/@greenteabot',
 'mediaType':2,
 'previewType':'pdf',
 'title':global.titlebot,
 'body':global.titlebot,
-'thumbnail':await(await fetch('https://telegra.ph/file/8a1c663c84751c10baf65.jpg')).buffer(),
-'sourceUrl':'https://youtube.com/channel/UC1oSMQCd3XKVxYwSh4RE2Nw'}},
+'thumbnail':await(await fetch('https://telegra.ph/file/67ab0c8eb03f8f8a027df.jpg')).buffer(),
+'sourceUrl':'tiktok.com/@greenteabot'}},
 'caption':cap,
 'footer':botdate,
 'buttons':[
-{'buttonId':'.menu','buttonText':{'displayText':'💬 MENU'},'type':1},
-{'buttonId':'.donasi','buttonText':{'displayText':'🎈 DONASI'},'type':1}
+{'buttonId':'.menu','buttonText':{'displayText':'ᴍᴇɴᴜ ʙᴏᴛ'},'type':1},
+{'buttonId':'.owner','buttonText':{'displayText':'ᴏᴡɴᴇʀ'},'type':1}
 ],
 'headerType':6}
     await conn.sendMessage(m.chat,buttonMessage, { quoted:m})
 }
-handler.help = ['daftar', 'register'].map(v => v + ' <nama>.<umur>')
+handler.help = ['daftar', 'register'].map(v => v + ' (nama).(umur)')
 handler.tags = ['xp']
 
 handler.command = /^(daftar|verify|reg(ister)?)$/i
