@@ -108,23 +108,23 @@ global.wm3 = 'ɢʀᴇᴇɴ ᴛᴇᴀ ʙᴏᴛ'
 global.botdate = `⻝ ᴛᴀɴɢɢᴀʟ: ${week} ${date}\n⻝ ᴡᴀᴋᴛᴜ: ${wktuwib}`
 global.bottime = `⻝ ᴡᴀᴋᴛᴜ : ${wktuwib}`
 global.titlebot = `Gʀᴇᴇɴ    Tᴇᴀ    Bᴏᴛ`
-global.author = '𝘚𝘵𝘪𝘤𝘬𝘦𝘳 𝘱𝘢𝘤𝘬 𝘣𝘺' 
+global.author = '𝘎𝘳𝘦𝘦𝘯 𝘛𝘦𝘢 𝘉𝘰𝘵' 
 global.packname = '𝘉𝘺 𝘎𝘳𝘦𝘦𝘯 𝘛𝘦𝘢 𝘉𝘰𝘵'
 global.danied = '𝘌𝘙𝘙𝘖𝘙'
 global.ultahowner = 'Juni 11 2023' //Ganti Ultah Lu Disini
 
 
 /*============== LOGO ==============*/
-global.thumb = 'https://telegra.ph/file/8a1c663c84751c10baf65.jpg' //Main Thumbnail
-global.imagebot = 'https://telegra.ph/file/8a1c663c84751c10baf65.jpg'
-global.giflogo = 'https://i.ibb.co/jfZVKmC/babi2.jpg'
-global.giflogo2 = 'https://telegra.ph/file/6ab4daac226292a112540.jpg'
+global.thumb = 'https://telegra.ph/file/5710be125aa29a90b0d9e.jpg' //Main Thumbnail
+global.imagebot = 'https://telegra.ph/file/5710be125aa29a90b0d9e.jpg'
+global.giflogo = 'https://telegra.ph/file/072aefb3acee6da278022.jpg'
+global.giflogo2 = 'https://telegra.ph/file/072aefb3acee6da278022.jpg'
 global.thumbs = ['https://telegra.ph/file/7db49c83fd106a60741cd.jpg']
 global.fla = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextType=1&fillTextPattern=Warning!&text='
-global.thumbBanned = 'https://telegra.ph/file/77d11b06617f0797a45ac.jpg'
-global.thumbWarn = 'https://telegra.ph/file/77d11b06617f0797a45ac.jpg'
-global.botintro = 'Hallo, Kenalin saya RullBOT Saya akan membantu Anda kapan pun & Dimana pun, Saya asisten bot WhatsApp yang di buat oleh *KhrlMstfa✓* Saya di rilis pada tanggal\n🗓 ️_23/11/2022_'
-global.intro = 'https://telegra.ph/file/6ab4daac226292a112540.jpg'
+global.thumbBanned = 'https://telegra.ph/file/072aefb3acee6da278022.jpg'
+global.thumbWarn = 'https://telegra.ph/file/072aefb3acee6da278022.jpg'
+global.botintro = 'Hallo, Kenalkan saya Green Tea Bot Saya akan membantu Anda kapan pun & Dimana pun, Saya asisten bot WhatsApp yang di buat oleh *KhrlMstfa✓* Saya di rilis pada tanggal\n🗓 ️_23/11/2022_'
+global.intro = 'https://telegra.ph/file/5710be125aa29a90b0d9e.jpg'
 /*============== GLOBAL BIO ==============*/
 global.nameowner = 's ʜ ᴏ'
 global.umurowner = '?'
@@ -143,7 +143,7 @@ global.dxlsx = 'application/vnd.openxmlformats-officedocument.spreadsheetml.shee
 global.dpdf = 'application/pdf'
 global.drtf = 'text/rtf'
 
-global.thumbdoc = 'https://telegra.ph/file/6ab4daac226292a112540.jpg'
+global.thumbdoc = 'https://telegra.ph/file/5710be125aa29a90b0d9e.jpg'
 
 /*=========== FAKE SIZE ===========*/
 global.fsizedoc = '99999999999999' // default 10TB
