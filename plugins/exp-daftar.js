@@ -11,7 +11,7 @@ let handler = async function (m, { text, usedPrefix, command }) {
 	{
 	title: "ᴘɪʟɪʜ ᴜᴍᴜʀ ᴅɪsɪɴɪ",
 	rows: [
-	    {title: "ᴛᴀʜᴜɴ ʀᴍᴀɴᴅᴏᴍ", rowId: '.daftar ' + namae + '.' + pickRandom(['30','29','28','27','26','25','24','23','22','21','20','19','18','17','16','15','14','13','12','11','10','9'])}
+	    {title: "Umur Random", rowId: '.daftar ' + namae + '.' + pickRandom(['30','29','28','27','26','25','24','23','22','21','20','19','18','17','16','15','14','13','12','11','10','9'])}
 	]
     },
     {
@@ -84,13 +84,13 @@ const listMessage = {
 'forwardingScore':555,
 'isForwarded':true,
 'externalAdReply':{
-'mediaUrl':'tiktok.com/@greenteabot',
+'mediaUrl':'https://tiktok.com/@greenteabot',
 'mediaType':2,
 'previewType':'pdf',
 'title':global.titlebot,
 'body':global.titlebot,
 'thumbnail':await(await fetch('https://telegra.ph/file/67ab0c8eb03f8f8a027df.jpg')).buffer(),
-'sourceUrl':'tiktok.com/@greenteabot'}},
+'sourceUrl':'https://tiktok.com/@greenteabot'}},
 'caption':cap,
 'footer':botdate,
 'buttons':[
