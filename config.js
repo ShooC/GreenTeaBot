@@ -27,11 +27,11 @@ let wibh = moment.tz('Asia/Jakarta').format('HH')
       
 
 /*============== INFO OWNER ==============*/
-global.sig = 'https://instagram.com/khoirul36_'
-global.syt = 'https://youtube.com/channel/UC1oSMQCd3XKVxYwSh4RE2Nw'
-global.sgh = 'https://github.com/Carisendiri:v'
-global.sgc = 'https://chat.whatsapp.com/D2NUDa6vk4I6hrS176mErV'
-global.swa = 'wa.me/6287753812675'
+global.sig = 'https://instagram.com/irullkullbet'
+global.syt = 'https://youtube.com'
+global.sgh = 'https://github.com'
+global.sgc = 'https://whatsapp.com'
+global.swa = '0'
 global.swb = 'https://'
 global.snh = 'https://nhentai.net/g/365296/' //Make ini aja gausah di ganti.
 
@@ -378,8 +378,8 @@ global.hwaifu = ['https://i.pinimg.com/originals/ed/34/f8/ed34f88af161e6278993e1
 'https://i.pinimg.com/originals/fd/21/41/fd21419275236bb153de3c8dcbbf3bf9.jpg',
 'https://i.pinimg.com/originals/80/4f/1a/804f1a05f9996c96a2d492b4854b7fd5.jpg']
 /*============== STICKER WM ==============*/
-global.stickpack = 'ᴍᴀᴅᴇ ʙʏ'
-global.stickauth = `Rullz✓`
+global.stickpack = 'Sticker Pack by'
+global.stickauth = `Green Tea Bot\n\nNomor Bot: 085731251228`
 
 global.multiplier = 38 // The higher, The harder levelup
 
