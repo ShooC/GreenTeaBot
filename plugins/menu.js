@@ -64,15 +64,15 @@ const defaultMenu = {
 ┃✾ *Uptime:* %muptime
 ┃✾ *Database:* %rtotalreg dari %totalreg
 ┗━ꕥ
-┏━ꕥ〔 *llı INFO COMMAND ıll* 〕ꕥ━⬣
-┃✾ *🅟* = Premium
-┃✾ *🅛* = Limit
+┏━ꕥ〔 *llı ɪɴғᴏ ᴄᴏᴍᴍᴀɴᴅ ıll* 〕ꕥ━⬣
+┃✾ *🅟* = ᴘʀᴇᴍɪᴜᴍ
+┃✾ *🅛* = ᴍᴇɴɢɢᴜɴᴀᴋᴀɴ ʟɪᴍɪᴛ
 ┗━ꕥ
 %readmore`.trimStart(),
-  header: '┏━━━ꕥ〔 *%category* 〕ꕥ━⬣',
-    body: '┃✾ %cmd %islimit %isPremium',
+  header: '┏━━━ꕥ〔 *%category* 〕ꕥ━⬣\n┃',
+    body: '┃ %cmd %islimit %isPremium\n┃',
   footer: '┗━━━━━━━━━ꕥ\n',
-  after: `  ${'✧\n┏━📮 *Note* :\n┃ 𝙹𝙸𝙺𝙰 𝙼𝙴𝙻𝙰𝙽𝙶𝙶𝙰𝚁 𝚃𝙾𝚂 𝙰𝙺𝙰𝙽 𝙳𝙸 𝙱𝙰𝙽 𝙿𝙴𝚁𝙼𝙰𝙽𝙴𝙽! ^_^\n┗━━━━━━━━━━━━━━━━━━━ꕥ'}`,
+  after: `  ${'✧\n┏━📮 *ɴᴏᴛᴇ* :\n┃ 𝙹𝙸𝙺𝙰 𝙼𝙴𝙻𝙰𝙽𝙶𝙶𝙰𝚁 𝚃𝙾𝚂 𝙰𝙺𝙰𝙽 𝙳𝙸 𝙱𝙰𝙽 𝙿𝙴𝚁𝙼𝙰𝙽𝙴𝙽! ^_^\n┗━━━━━━━━━━━━━━━━━━━ꕥ'}`,
 }
 let handler = async (m, { conn, usedPrefix, __dirname }) => {
   try {
@@ -185,22 +185,22 @@ let handler = async (m, { conn, usedPrefix, __dirname }) => {
     conn.sendButton(m.chat,
 `${wish()} ${name}
 `, text.trim(), flaa, [
-      [`ꜱᴇᴡᴀʙᴏᴛ`, `${usedPrefix}sewa`],
-      [`۪۪ᴀᴜᴛʜᴏʀ ʙᴏᴛ`, `${usedPrefix}owner`]
-    ], m, { 'document':{'url':'https://bit.ly/3eggcxd'},
+      [`ᴘɪɴɢ ʙᴏᴛ`, `${usedPrefix}sewa`],
+      [`۪۪ᴀɴᴏɴʏᴍᴏᴜs ᴄʜᴀᴛ`, `${usedPrefix}start`]
+    ], m, { 'document':{'url':'tiktok.com/@greenteabot'},
 'mimetype':global.dpdf,
-'fileName':'「 RullBOT 」',
+'fileName':'ɢʀᴇᴇɴ ᴛᴇᴀ ʙᴏᴛ',
 'fileLength':fsizedoc,
 'pageCount':fpagedoc,
 'previewType':'pdf',
 contextInfo: { externalAdReply :{ showAdAttribution: true,
-                        sourceUrl: 'https://bit.ly/3eggcxd',
+                        sourceUrl: 'tiktok.com/@greenteabot',
                         mediaType: 2,
-                        description: `⚘ Kreator Khrl✓`,
-                        title: `💌 My Ultah: ${ohari} Hari ${ojam} Jam ${onet} Menit ${detek} Detik`,
+                        description: `ɢʀᴇᴇɴ ᴛᴇᴀ ʙᴏᴛ`,
+                        title: `ɢ ʀ ᴇ ᴇ ɴ ᴛ ᴇ ᴀ ʙ ᴏ ᴛ`,
                         body: `⚘ by khrl`,          previewType: 0,
                         thumbnail: await (await fetch(thumb)).buffer(),
-                        mediaUrl: 'https://bit.ly/3eggcxd'
+                        mediaUrl: 'tiktok.com/@greenteabot'
                         
                       }}
 })
