@@ -1,5 +1,5 @@
 let handler = async m => m.reply(`
-「 AKUN GRATIS 」
+「 AKUN GRATIS/Free Account 」
 
 • MINECRAFT (XBOX)
 
@@ -169,12 +169,11 @@ Kata sandi: coolkidbres
 10. Email: YbaliwythFAV@gmail.com
 Kata sandi: superiorman_
 
-「 ᴹᴿ᭄ King Of Bear ×፝֟͜×  」
 `.trim()) // Tambah sendiri kalo mau
 handler.help = ['akungratis','freeaccount']
 handler.tags = ['tools']
 handler.command = /^(akungratis|freeaccount)$/i
-
+handler.private = true
 handler.limit = true
 
 export default handler 
