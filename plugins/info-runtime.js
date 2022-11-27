@@ -35,8 +35,8 @@ const time = moment.tz('Asia/Jakarta').format('HH')
                         description: 'anu',
                         title: `ʙʏ ɢʀᴇᴇɴ ᴛᴇᴀ ʙᴏᴛ`,
                         body: `ғᴏʟʟᴏᴡ ᴛɪᴋᴛᴏᴋ ʙᴏᴛ`,                                       previewType: 0,
-                        thumbnail: await (await fetch(`https://i.ibb.co/jfZVKmC/babi2.jpg`)).buffer(),
-                        sourceUrl: 'tiktok.com/@greenteabot'
+                        thumbnail: await (await fetch(`https://telegra.ph/file/01e70ce9d488cb97b5d60.jpg`)).buffer(),
+                        sourceUrl: 'https://tiktok.com/@greenteabot'
             }
         }
     })
