@@ -185,8 +185,7 @@ let handler = async (m, { conn, usedPrefix, __dirname }) => {
     conn.sendButton(m.chat,
 `${wish()} ${name}
 `, text.trim(), flaa, [
-      [`ᴘɪɴɢ ʙᴏᴛ`, `${usedPrefix}sewa`],
-      [`۪۪ᴀɴᴏɴʏᴍᴏᴜs ᴄʜᴀᴛ`, `${usedPrefix}start`]
+      [`۪۪Pemilik Bot`, `${usedPrefix}owner`]
     ], m, { 'document':{'url':'tiktok.com/@greenteabot'},
 'mimetype':global.dpdf,
 'fileName':'ɢʀᴇᴇɴ ᴛᴇᴀ ʙᴏᴛ',
